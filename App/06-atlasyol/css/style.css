@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+body {
+  background-image: url("../img/body.png");
+  background-repeat: repeat-x;
+}
+
+.site {
+  width: 940px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 80px;
+}
+
+.header {
+}
+
+.header .logo {
+  float: left;
+}
+
+.header .header-right {
+  float: right;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.header .header-right .contact {
+  background: url("../img/tel.png") no-repeat left center;
+  padding-left: 15px;
+  font-size: 12px;
+
+}
+
+.header .header-right .contact strong {
+  font-weight: bold;
+}
+
+.header .header-right .language {
+  margin-top: 15px;
+}
+
+.header .header-right .language li {
+  display: inline-block;
+}
+
+.header .menu {
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.header .menu ul {
+}
+
+.header .menu ul li {
+  float: left;
+  border-left: 1px solid black;
+}
+
+.header .menu ul li:first-child {
+  border-left: 0;
+}
+
+.header .menu ul li a {
+  display: inline-block;
+  font-size: 14px;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content .slider {
+  border: 1px solid black;
+}
+
+.content .slider img {
+  display: block;
+}
+
+.content .slogan {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.content .list {
+  margin-top: 20px;
+}
+
+.content .list .item {
+  width: 300px;
+  float: left;
+  margin-left: 20px;
+}
+
+.content .list .item:first-of-type {
+  margin-left: 0;
+}
+
+.content .list .item img {
+  float: left;
+}
+
+.content .list .item span {
+  float: left;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 8px;
+  margin-left: 10px;
+}
+
+.content .list .item p {
+  font-size: 13px;
+  margin-top: 10px;
+}

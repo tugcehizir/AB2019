@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Tahoma";
+  font-size: 16px;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.header .logo{
+	float:left;
+}
+
+
+.header .menu{
+	float: right;
+}
+
+.header .menu ul li{
+	float:left;
+}
+
+.menuItem a{
+
+	padding-top    : 100px;
+	padding-right  : 10px;
+	padding-left   : 10px;
+	padding-bottom : 10px;
+	text-decoration: none;
+	text-align     : center;
+	display        : inline-block;
+	
+	color          : black;
+}
+.menuItem a:hover{
+	background-color: lightblue;
+}
+
+.slider{
+	margin-top: 25px;
+}
+
+.list .item{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin-top: 25px;
+	margin-left: 50px;
+	background-color: rgba(100,100,100,0.4);
+}
+
+.list .item:first-of-type{
+	margin-left: 0;
+}
+
+.list .item img{
+	padding-left: 75px;
+	padding-top: 30px;
+	text-align: center;
+}
+
+
+.content{
+	margin-top: 25px;
+}
+
+.news{
+	float: left;
+	width: 300px;
+	margin-right: 50px;
+}
+
+.news span{
+	font-weight: bold;
+}
+
+.newsItem{
+	padding-top: 10px;
+	font-size: 13px;
+}
+.newsItem img{
+	float: left;
+}
+
+
+.text{
+
+}
+
+.text span{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.text p{
+	font-size: 13px;
+
+}
+
+p strong{
+	font-weight: bold;
+}
+
+.footer{
+	margin-top: 50px;
+}
+.footer .ic{
+	background-color: black;
+	padding: 10px;
+	color: white;
+	text-align: center;
+}
